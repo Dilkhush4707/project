@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #020101;
+}
+.container {
+  position: relative;
+  width: 300px; /* Adjust width as needed */
+}
+
+.searchbox {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e9e9e9;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.dropdown {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  position: absolute;
+  top: 100%; /* Position below the input */
+  left: 0;
+  right: 0;
+  list-style-type:none;
+ 
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure dropdown is above other elements */
+  max-height: 200px; /* Limit height */
+  overflow-y: auto; /* Scroll if too many items */
+}
+
+.dropdown li {
+  padding: 10px;
+  padding-left: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+ li:hover {
+  border-bottom: 2px solid #ffffff;
+  
+  border-radius: 40px;
+  /* Highlight on hover */
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
