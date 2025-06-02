@@ -105,7 +105,7 @@ const About = () => {
               </h4>
               <div className="border-l-2 border-purple-700 dark:border-purple-600 pl-4">
                 <p className="font-semibold text-gray-800 dark:text-gray-200">
-                  Bachelor's of Computer Application
+                  Bachelor’s of Computer Application
                 </p>
                 <p className="text-sm text-gray-700 dark:text-gray-400">
                   University of Rajasthan | Aug 2023 - Aug 2025
